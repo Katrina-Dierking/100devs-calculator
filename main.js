@@ -1,3 +1,9 @@
+
+document.querySelector('button').addEventListener('click', addItem)
+
+function addItem() {
+    let item = document.querySelector('input').value
+}
 function CalcButton (number, item, size) {
     this.number = number
     this.item = item
